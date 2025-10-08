@@ -10,4 +10,8 @@ public class Calculator
         if (b == 0) throw new DivideByZeroException();
         return a / b;
     }
+
+    public int Substract(int a, int b) => a - b;
+
+    public int Mutliply(int a, int b) => a * b;
 }
